@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="tX6ItV" name="JUverb" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyWebsite="Owninstrument"
-              pluginFormats="buildStandalone,buildVST3">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyWebsite="www.EarthMoveDSP.com"
+              pluginFormats="buildAAX,buildAU,buildAUv3,buildLV2,buildStandalone,buildVST3"
+              companyName="Earth Mover DSP" pluginManufacturerCode="EDSP" pluginCode="JUVB"
+              pluginVST3Category="Fx,Reverb,Stereo" pluginAAXCategory="8,8192"
+              lv2Uri="http://earthmoverdsp.com/plugins/JUverb">
   <MAINGROUP id="XcfTaT" name="JUverb">
     <GROUP id="{3C3D721D-74D2-A0FC-9757-7B9E3CA0E184}" name="Source">
       <FILE id="YxgNSo" name="JUVerb.cpp" compile="1" resource="0" file="Source/JUVerb.cpp"/>
